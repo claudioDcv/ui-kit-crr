@@ -1,0 +1,94 @@
+.ui-kit-crr-wizard__dots {
+
+}
+
+.ui-kit-crr-wizard__dots > div {
+    display: inline-block;
+    position: relative;
+    height: 1.6rem;
+}
+
+.ui-kit-crr-wizard__dots > div:last-child {
+
+}
+
+.ui-kit-crr-wizard__dots > div:first-child {
+}
+
+.ui-kit-crr-wizard__dots > div button {
+    border-radius: 50%;
+    border: none;
+    z-index: 2;
+    position: relative;
+    height: 1.6rem;
+    width: 1.6rem;
+    border: solid 0.1rem silver;
+    background-color: silver;
+}
+
+.ui-kit-crr-wizard__dots > div:before {
+    content: '';
+    width: 100%;
+    height: 0.1rem;
+    background: silver;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ui-kit-crr-wizard__dots > div.old:before {
+    background-color: #7e57c2;
+}
+
+.ui-kit-crr-wizard__dots > div:first-child:before {
+    content: '';
+    width: 50%;
+    right: 0;
+}
+
+.ui-kit-crr-wizard__dots > div:last-child:before {
+    content: '';
+    width: 50%;
+    left: 0;
+}
+
+.ui-kit-crr-wizard__dots > div.current:after {
+    content: '';
+    height: 0.1rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #7e57c2;
+    width: 50%;
+    left: 0;
+}
+
+.ui-kit-crr-wizard__dots > div.current:first-child:after {
+    display: none;
+}
+
+.ui-kit-crr-wizard__dots > div.current button {
+    background-color: #7e57c2;
+    border-color: #7e57c2;
+}
+
+.ui-kit-crr-wizard__dots > div.old button {
+    background-color: #fff;
+    border-color:#7e57c2;
+}
+
+.ui-kit-crr-wizard__steps {
+
+}
+
+.ui-kit-crr-wizard__steps > div {
+    display: none;
+}
+
+.ui-kit-crr-wizard__steps > div.current {
+    display: block;
+}
